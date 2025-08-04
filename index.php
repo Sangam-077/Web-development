@@ -167,15 +167,6 @@
   <section id="review-section">
     <div id="review-container">
       <h3 id="review-title">Share Your Feedback</h3>
-      <form id="review-form">
-        <label for="review-product">Select Product:</label>
-        <select id="review-product" required>
-          <option value="espresso">Ravenhill Espresso</option>
-          <option value="latte">Honey Lavender Latte</option>
-          <option value="cold-brew">Vanilla Cold Brew</option>
-          <option value="matcha">Matcha Latte</option>
-          <option value="water-jar">Reusable Water Jar</option>
-        </select>
         <label for="review-text">Your Review:</label>
         <textarea id="review-text" placeholder="Write your review here" required></textarea>
         <button type="submit" id="submit-review-btn">Submit Review</button>
